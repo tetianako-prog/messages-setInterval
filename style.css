@@ -1,0 +1,64 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 20px;
+}
+.container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.show-message-container {
+  border: 2px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+.list {
+  border: 2px solid black;
+  padding: 10px;
+  padding-left: 30px;
+  list-style-type: none;
+}
+.shown-message {
+  display: inline-block;
+  width: 100px;
+  margin-right: 40px;
+}
+
+.add-form {
+  border: 2px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+.block {
+  background: transparent;
+  color: red;
+  border-radius: 50%;
+  outline: none;
+  border: 2px solid black;
+}
+
+.submit {
+  outline: none;
+  border: none;
+  background: rgb(52, 4, 228);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.input {
+  height: 34px;
+}
+
+.blocked {
+  margin-left: 10px;
+}
